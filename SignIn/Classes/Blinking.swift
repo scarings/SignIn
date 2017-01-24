@@ -1,5 +1,5 @@
 //
-//  SignIn.swift
+//  Blinking.swift
 //  Pods
 //
 //  Created by Yovhi on 1/24/17.
@@ -7,8 +7,8 @@
 //
 
 import Foundation
-
-public class SignIn : UILabel {
+import UIKit
+public class Blinking : UILabel {
     public func startBlinking() {
         let options: UIViewAnimationOptions = [.repeat, .autoreverse]
         UIView.animate(withDuration: 0.25, delay:0.0, options:options, animations: {

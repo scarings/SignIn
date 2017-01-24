@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D146E2D42DCFE6DB27CFE5987273787 /* SignIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0DE488B0BFB9637F4A95471E5CBF7 /* SignIn-dummy.m */; };
 		4BCF0651759978CE4AFFFB435FD9AF82 /* SignIn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2A0F78D7F9CC4637F832F038B47569 /* SignIn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B77D5205EAD17F93C8174D51709920A /* Pods-SignIn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F683B34A6E7884FF7A587E54B4208 /* Pods-SignIn_Example-dummy.m */; };
 		78C3FB6B78FD58FABFFD01DC7DC747F6 /* Pods-SignIn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CA1C72B8E61F7A3153B9FE2CD8EA3 /* Pods-SignIn_Tests-dummy.m */; };
 		8347F645E49FBACB5AE56E651C879B9B /* Pods-SignIn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6292D83734649F469E4D36A0181F8137 /* Pods-SignIn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92F1C555501F810A96D8551EC5B8D641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A151A379BA8D5A09B15449D1FA8B18C1 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C6338649C81C92C304DF13534CA93 /* SignIn.swift */; };
 		B3E54EFD410B19C378BFBC6691429BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D2A8E44FE51A2A721AD8C3257C590ABB /* Pods-SignIn_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F377BD89CB268F9E3A0CC030962ABB5 /* Pods-SignIn_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCAC58E324D567B2E1747424F649246F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FEFFC10B35292795A72D4F0C376EB4CA /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C5F8F2B6976A5DE270A8F4F84F3B0 /* SignIn.swift */; };
+		E95DA9CBD3706F807FE19C249ED94DB0 /* Blinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3A780C17B4D84849D92B6B02036F /* Blinking.swift */; };
+		F95B27CB2C2F38FFD282806B1E80016E /* SignIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0DE488B0BFB9637F4A95471E5CBF7 /* SignIn-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042C5F8F2B6976A5DE270A8F4F84F3B0 /* SignIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		13BF350DB9F1B0899377399E1DAC6C7A /* SignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SignIn.framework; path = SignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F377BD89CB268F9E3A0CC030962ABB5 /* Pods-SignIn_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignIn_Example-umbrella.h"; sourceTree = "<group>"; };
 		296A8B524E9D7B10ADD8D4B22905B014 /* Pods-SignIn_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignIn_Example-resources.sh"; sourceTree = "<group>"; };
@@ -52,6 +52,7 @@
 		9F570AE49623C86835BF84BDD1966B7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63BCA280D8F3A7CF6A02BB46F9BA214 /* Pods_SignIn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignIn_Example.framework; path = "Pods-SignIn_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5795A5821363F823E2350B0BB53296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8F3A780C17B4D84849D92B6B02036F /* Blinking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Blinking.swift; sourceTree = "<group>"; };
 		AEEC568EB87A85ECA812EC9519EADEBF /* Pods-SignIn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignIn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0AF6A6626C30D3F411AE03F2E4F6BB0 /* Pods-SignIn_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignIn_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +61,7 @@
 		D224748F12A9970D13F0291F5AE5C53F /* Pods-SignIn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignIn_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DEE2B1D6C3AF3E81CE2F3AEFA5E3B45A /* SignIn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignIn-prefix.pch"; sourceTree = "<group>"; };
 		E47CB79CA6E65AEDB36BBCB8835B98C2 /* Pods-SignIn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignIn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB4C6338649C81C92C304DF13534CA93 /* SignIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		FA0C955D1E4FE919E4B5FF4A1BA59275 /* Pods-SignIn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignIn_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FC596B6FC5944B6E934F745FD7A3636A /* Pods-SignIn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignIn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,15 +131,6 @@
 			path = "Target Support Files/Pods-SignIn_Example";
 			sourceTree = "<group>";
 		};
-		5AF070460422120674DE570B1C7278E4 /* SignIn */ = {
-			isa = PBXGroup;
-			children = (
-				D491C62F01D41350A3432003F58CB767 /* Classes */,
-			);
-			name = SignIn;
-			path = SignIn;
-			sourceTree = "<group>";
-		};
 		5E4544D9D436404A1C53736CABE464D6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +145,15 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7562EF14E490A5156B602D70140EB42B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				90F72DEB78DF99B7026332C60590D481 /* Classes */,
+			);
+			name = SignIn;
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -179,10 +181,20 @@
 			path = "Example/Pods/Target Support Files/SignIn";
 			sourceTree = "<group>";
 		};
+		90F72DEB78DF99B7026332C60590D481 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB8F3A780C17B4D84849D92B6B02036F /* Blinking.swift */,
+				EB4C6338649C81C92C304DF13534CA93 /* SignIn.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A1D311A5BB488182F1E67D2F269D94B9 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				5AF070460422120674DE570B1C7278E4 /* SignIn */,
+				7562EF14E490A5156B602D70140EB42B /* SignIn */,
 				9057D83F6B2EAF7A1E0A33CAB1F0C7C1 /* Support Files */,
 			);
 			name = SignIn;
@@ -213,15 +225,6 @@
 			);
 			name = "Pods-SignIn_Tests";
 			path = "Target Support Files/Pods-SignIn_Tests";
-			sourceTree = "<group>";
-		};
-		D491C62F01D41350A3432003F58CB767 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				042C5F8F2B6976A5DE270A8F4F84F3B0 /* SignIn.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66A75E57693C817720EDEF81E2E47228 /* Build configuration list for PBXNativeTarget "SignIn" */;
 			buildPhases = (
-				C37AC582F6E9B187A66FF66FC1D74625 /* Sources */,
+				569D8776BABEA557941C22EF23EE328B /* Sources */,
 				C7489C0AC399D1DFD4018EF88A6FEA84 /* Frameworks */,
 				724DE44999EE5373230773A08B4B749E /* Headers */,
 			);
@@ -335,12 +338,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C37AC582F6E9B187A66FF66FC1D74625 /* Sources */ = {
+		569D8776BABEA557941C22EF23EE328B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D146E2D42DCFE6DB27CFE5987273787 /* SignIn-dummy.m in Sources */,
-				FEFFC10B35292795A72D4F0C376EB4CA /* SignIn.swift in Sources */,
+				E95DA9CBD3706F807FE19C249ED94DB0 /* Blinking.swift in Sources */,
+				F95B27CB2C2F38FFD282806B1E80016E /* SignIn-dummy.m in Sources */,
+				A151A379BA8D5A09B15449D1FA8B18C1 /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
