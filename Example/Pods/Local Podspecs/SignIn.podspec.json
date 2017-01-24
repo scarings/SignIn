@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of SignIn.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SignIn",
+  "homepage": "https://github.com/scarings/SignIn",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
