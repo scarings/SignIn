@@ -1,0 +1,22 @@
+{
+  "name": "SignIn",
+  "version": "0.1.0",
+  "summary": "A short description of SignIn.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SignIn",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yovhi": "yovhimember@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SignIn.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SignIn/Classes/**/*"
+}

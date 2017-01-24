@@ -1,0 +1,16 @@
+PODS:
+  - SignIn (0.1.0)
+
+DEPENDENCIES:
+  - SignIn (from `../`)
+
+EXTERNAL SOURCES:
+  SignIn:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SignIn: a9dadfa67e05c77d876084cfc2c1650e86fcf49f
+
+PODFILE CHECKSUM: d5244a8b2c76f9e0eaa0685e754770c0292c7971
+
+COCOAPODS: 1.2.0.beta.1
